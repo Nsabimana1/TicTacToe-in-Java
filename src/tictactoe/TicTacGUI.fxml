@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="tictactoe.TicTacControler">
+	<center>
+		<Canvas fx:id="board" height="665.0" width="525.0"
+			BorderPane.alignment="CENTER" />
+	</center>
+	<bottom>
+		<Button mnemonicParsing="false" onAction="#RestartGame" text="Restart"
+			BorderPane.alignment="CENTER" />
+	</bottom>
+</BorderPane>
